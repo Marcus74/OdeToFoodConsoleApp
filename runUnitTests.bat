@@ -1,0 +1,1 @@
+mstest /testcontainer:OdeToFoodUnitTest\bin\Debug\OdeToFoodUnitTest.dll
