@@ -8,16 +8,16 @@ namespace OdeToFoodConsoleApp.Data
 {
     public class Dishes
     {
-        public static Dictionary<int, Tuple<string, string>> GetFoodList()
-        {
-            return new Dictionary<int, Tuple<string, string>>()
-            {
-                {(int)DishType.DishTypeEnum.Entree, new Tuple<string, string>("Eggs", "Steak")},
-                {(int)DishType.DishTypeEnum.Side, new Tuple<string, string>("Toast", "Potato")},
-                {(int)DishType.DishTypeEnum.Drink, new Tuple<string, string>("Coffee", "Wine")},
-                {(int)DishType.DishTypeEnum.Dessert, new Tuple<string, string>("Error", "Cake")} 
-            };
-        }
+        //public static Dictionary<int, Tuple<string, string>> GetFoodList()
+        //{
+        //    return new Dictionary<int, Tuple<string, string>>()
+        //    {
+        //        {(int)DishType.DishTypeEnum.Entree, new Tuple<string, string>("Eggs", "Steak")},
+        //        {(int)DishType.DishTypeEnum.Side, new Tuple<string, string>("Toast", "Potato")},
+        //        {(int)DishType.DishTypeEnum.Drink, new Tuple<string, string>("Coffee", "Wine")},
+        //        {(int)DishType.DishTypeEnum.Dessert, new Tuple<string, string>("Error", "Cake")} 
+        //    };
+        //}
 
         public static Dictionary<int, IFoodItem> GetFoodList2()
         {
